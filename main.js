@@ -113,8 +113,7 @@ function onlyVowels(vow){
    let only = ""
     
     for(let i = 0; i < vow.length ; i++){
-        if(vow[i] === "a" || vow[i] === "e"||vow[i] === "i" || vow[i] === "o"|| vow[i] === "u"|| vow[i] === "y" ||
-           vow[i] === "A" || vow[i] === "E"||vow[i] === "I" || vow[i] === "O"|| vow[i] === "U"|| vow[i] === "Y"){
+        if(vow[i].toLowerCase() === "a" || vow[i].toLowerCase() === "e"||vow[i].toLowerCase() === "i" || vow[i].toLowerCase() === "o"|| vow[i].toLowerCase() === "u"|| vow[i].toLowerCase() === "y" ){
             only += vow[i]
         }
     }
